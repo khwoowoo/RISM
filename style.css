@@ -1,0 +1,245 @@
+@import 'reset.css';
+
+@font-face {
+	src : url("font/CookieRun Black.ttf");
+	font-family: "cookiel";
+}
+
+@font-face{
+    font-family: "font/CookieRun Bold.otf";
+    src:url("font/CookieRun Bold.otf")format("truetype");
+}
+
+:root{
+    --nav-margin-interval:20px;
+    --nav-background-color: white;
+    --nav-logo-size: calc(1.5rem + 2vw);
+    --nav-text-size: calc(1.2rem);
+    
+    --About-h1-Size: calc(1.5rem + 3vw);
+    --About-h2-Size: calc(1.5rem + 1vw);
+    --About-p-Size: calc(.6rem + 1vw);
+
+    --Board-h1-Size: calc(1.5rem + 1vw);
+    
+    --color-blue: #3e7ad3;
+    --color-black:#282727;
+
+
+    --default-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.88);
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: "font/CookieRun Bold.otf";
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+
+/* 스크롤바 설정*/ 
+body::-webkit-scrollbar { 
+    /* 스크롤바 막대 너비 설정 */ 
+    width: 10px; 
+} /* 스크롤바 막대 설정*/ 
+
+body::-webkit-scrollbar-thumb{ 
+    /* 스크롤바 막대 높이 설정 */ 
+    height: 6px; 
+    background-color: rgb(116, 116, 116, 0.1); 
+    /* 스크롤바 둥글게 설정 */ 
+    border-radius: 10px; 
+} /* 스크롤바 뒷 배경 설정*/ 
+
+body::-webkit-scrollbar-track{ 
+    background-color: rgba(255, 255, 255, 0); 
+}
+
+/* ============== navbar ============== */
+.navbar{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0; left: 0;
+    background-color: var(--nav-background-color);
+}
+
+.navbar > a{
+    font-size: var(--nav-logo-size);
+    color: var( --color-blue);
+    margin-left: var(--nav-margin-interval);
+}
+
+.navbar > ul{
+    display: flex;
+}
+
+.navbar > ul > li{
+    font-size: var(--nav-text-size);
+    color: var( --color-black);
+    margin-right: var(--nav-margin-interval);
+    cursor: pointer;
+}
+
+.navbar > ul > li:hover{
+    font-size: calc(var(--nav-text-size) + 5px);
+}
+
+/* ============== Home ============== */
+
+.Home{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Home img{
+    height: 100%;
+    width:  100%;
+}
+
+/* ============== About ============== */
+
+.About{
+    display: flex;
+}
+
+.About h1{
+    font-size: var(--About-h1-Size);
+    margin: 100px 90px 100px;
+}
+
+.About .About_contents{
+    display: flex;
+    flex-direction: column;
+}
+
+.About_contents_text{
+    margin: 0px 90px 0px;
+}
+
+.About_contents_text p:first-child{
+    font-size: var(--About-h2-Size);
+    margin-bottom: 50px;
+}
+
+.About_contents_text p:first-child span{
+    color: var(--color-blue);
+}
+
+.About_contents_text p{
+    font-size: var(--About-p-Size);
+}
+
+
+.About > img{
+    width: 30%;
+    height: 30%;
+    margin-top:150px;
+    margin-left: 100px;
+}
+
+/* ============== Slider ============== */
+
+.Slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    width: 100vw;
+}
+
+.Slider .Sldier_imageBox{
+    display: flex;
+    width: 100vw;
+    height: 300px;
+    /* overflow: hidden; */
+    margin-right: 200px;
+}
+
+.Slider .Sldier_imageBox img{
+    width: 500px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+.Slider .Slider_State{
+    display: flex;
+    margin-top: 20px;
+}
+
+.Slider_State_circle{
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    box-shadow: var(--default-box-shadow);
+}
+
+/* ============== Board ============== */
+
+.Board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+.Board p{
+    font-size: var(--Board-h1-Size);
+}
+
+.Board ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 100px;
+}
+
+
+.Board ul > li > a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Board ul > li > a > button{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border-radius: 70px;
+    box-shadow: var(--default-box-shadow);
+}
+
+.Board ul > li > a > button:hover{
+    opacity: 0.8;
+}
+
+
+/* ============== game ============== */
+.game{
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.game > a > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ============== footer ============== */
+.footer{
+    width: 100vw;
+    margin-top: 100px;
+}
+
+.footer > img{
+    width: 100%;
+    height: 100%;
+}

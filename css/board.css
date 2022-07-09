@@ -1,0 +1,102 @@
+@import 'reset.css';
+@font-face {
+	src : url("../font/CookieRun Black.ttf");
+	font-family: "cookiel";
+}
+@font-face {
+	src : url("../font/CookieRun Regular.ttf");
+	font-family: "cookier";
+}
+@font-face {
+	src : url("../font/NanumGothic.ttf"); format('truetype');
+	src : url("../font/NanumGothic.otf");
+	font-family: "nanum";
+}
+.wrapper {
+	display: flex;
+	justify-content:space-between; 
+	align-items:flex-end; 
+	width:95%;
+}
+
+.post_it {
+	border: 1px solid black;
+	width: 13em;
+	height: 12em;
+	box-shadow: 0.5em 0.5em 0.3em;
+	margin: 2em 2em 1em 2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.pageTitle{
+	margin-top: 20px;
+	font-size: 30px;
+	font-family: "nanum";
+	font-weight: bold;
+}
+
+body{
+
+}
+
+.pond{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "cookiel";
+	margin: 4em 8em 1em 8em;
+}
+
+.elecenter{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.linevert{
+	display: flex;
+	flex-direction: column;
+}
+
+.inputtable {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+}
+
+.footer{
+	display: flex;
+	justify-content: center;
+}
+
+.modifybtn{
+  background-color :white;
+  width : 130px;
+  color : #303030;
+  font-size : 18px;
+  height : 30px;
+  font-weight: 900;
+  margin-right:24px;
+  	margin-top:20px;
+  	text-align:center;
+  	display:flex;
+  	align-items:center;
+  	justify-content:center;
+}
+
+.searchValue{
+   vertical-align: middle;
+   margin-right: 10px;
+   font-size : 20px;
+   width : 180px;
+   height : 25px;
+   font-family :"cookier";
+}
+.searchsubmit{
+	vertical-align: middle;
+    background-color :#303030;
+    color : white;
+    font-weight : bold;
+    width : 40px;
+    height : 30px;
+    font-family :"cookiel";
+}

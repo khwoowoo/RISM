@@ -1,0 +1,13 @@
+@font-face {
+	src : url("../font/CookieRun Black.ttf");
+	font-family: "cookiel";
+}
+@font-face {
+	src : url("../font/CookieRun Regular.ttf");
+	font-family: "cookier";
+}
+@font-face {
+	src : url("../font/NanumGothic.ttf"); format('truetype');
+	src : url("../font/NanumGothic.otf");
+	font-family: "nanum";
+}

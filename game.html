@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="images/x-icon" href="images/mark.png">
+    <script defer src="game.js"></script>
+    <style>
+        @font-face{
+            font-family: "CookieRunFont_OTF/CookieRun Bold.otf";
+            src:url("CookieRunFont_OTF/CookieRun Bold.otf")format("truetype");
+        }
+        body{
+            font-family: "CookieRunFont_OTF/CookieRun Bold.otf";
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow:hidden;
+        }
+        
+        canvas{
+            background-color: black;
+        }
+        .score{
+            visibility: hidden;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+
+        audio{
+            position: absolute;
+            left: 260px;
+            top: 10px;
+            opacity: 0.5;
+        }
+
+        .Notification{
+            position: absolute;
+            left: 1100px;
+            top: 3px;
+            opacity: 0.7;
+        }
+
+    </style>
+    <title>Shooting</title>
+</head>
+<body>
+    <canvas id="jsCanvas" width="1024" height="720"></canvas>
+    <form action="gamebd.jsp" method="post" id="jsForm" class = "score">
+        <input type="text" name="score" id="jsScore" value="0">
+        <input type="submit" id="jsSubmit">
+    </form>
+    <audio src="resource/BGM.wav" autoplay loop controls id="myAudio">오디오 지원되지 않는 브라우저</audio>
+    <p class="Notification">권장 웹 브라우저: EDGE</p>
+</body>
+</html>

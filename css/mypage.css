@@ -1,0 +1,103 @@
+body{
+	margin : 50px;
+}
+#submit{ 
+  width : 30px; height : 30px;
+  background-repeat : no repeat;
+  background-size : 30px 30px;
+  background-color : white;
+  border:0 solid black;
+}
+#name, #address, #birth, #email, #phone{
+	border:0 solid black	
+}
+#name{margin-left: 77px;}
+#address{margin-left: 77px;}
+#birth{margin-left: 43px;}
+#email{margin-left: 60px;}
+#phone{margin-left: 60px;}
+
+.updown{
+  border: 1px solid #aaaaaa;
+  width : 1px;
+  height: 500px;
+  background-color: #aaaaaa;
+  margin-left: 25px;
+}
+#profile{
+  flex-grow: 1;
+}
+#mypage{
+  flex-grow: 4;
+}
+#column{
+ display :  flex;
+}
+#form{
+	margin-left : 150px;
+	margin-right : 25px;
+}
+#profileimg{
+  border-radius: 50%;
+  width : 250px;
+  height : 250px;
+  background-color: #53bca0;
+  border: 3px solid #9a9696;
+}
+#navi{
+	display : flex;
+}
+ul.profile-ul{
+  list-style-type: none;
+  margin - left : 10px;
+  padding: 0;
+  background-color: gray;
+
+}
+li{
+  float: left;
+  padding: 1px 20px;
+  font-weight: bold;
+}
+.navi > ul > li:hover > a{
+  text-decoration: underline solid #53bca0 7.5px;
+}
+
+li.profile-li{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.event{
+  width : 70px;
+  height: 5px;
+  border-radius: 0.1px solid  #53bca0;
+  background-color: #53bca0;
+  padding: 1px 5px;
+}
+hr{
+    border: 1px solid #aaaaaa;
+    background-color: #aaaaaa;
+}
+.post_it{
+	border: 1px solid black;
+	width: 6em;
+	height: 7em;
+	box-shadow: 0.5em 0.5em 0.3em;
+	margin: 2em 2em 1em 2em;
+}
+.pond{
+	margin-left: 0.5em;
+}
+
+.f-child, .s-child {
+    border : 1px solid #444444;
+    padding: 10px;
+  }
+ .s-child{border-left: none;}
+ .f-child{border-right : none;}
+ .table{
+	margin-top : 50px;
+}

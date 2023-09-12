@@ -7,12 +7,7 @@
 + **메인페이지/웹 슈팅게임/슈팅게임 랭킹/웹디자인**
   + 강현우
 
-# 웹디자인 이미지
-
-![최종](https://user-images.githubusercontent.com/23547185/178097932-fdf9dc74-1143-4358-9f8f-df1ee143fd2b.png)
-
-
-# 보고서
+# 최종 보고서
 ![0002](https://user-images.githubusercontent.com/23547185/178097887-7de7aa8c-e5a1-448d-8184-8835dbbc0845.jpg)
 ![0003](https://user-images.githubusercontent.com/23547185/178097889-c38ffc71-d6cc-4784-ab9a-05f8fde6eb81.jpg)
 ![0004](https://user-images.githubusercontent.com/23547185/178097890-13f707e2-a0c5-41ac-86cd-f5037337cc8a.jpg)
@@ -31,3 +26,7 @@
 ![0017](https://user-images.githubusercontent.com/23547185/178097908-9fd832fc-af3e-4895-b426-0a168b60585e.jpg)
 ![0018](https://user-images.githubusercontent.com/23547185/178097909-374c97b6-2031-4dd5-8ae3-2fe80d4ff940.jpg)
 ![0019](https://user-images.githubusercontent.com/23547185/178097910-6404d9fe-7282-4d8e-9942-ef2cf9221cb3.jpg)
+
+# 웹디자인 이미지
+
+![최종](https://user-images.githubusercontent.com/23547185/178097932-fdf9dc74-1143-4358-9f8f-df1ee143fd2b.png)
